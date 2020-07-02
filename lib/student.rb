@@ -7,10 +7,10 @@ class Student  < User
   end
   
   def learn(tidbit)
-    @knowledge << tidbit
+    knowledge << tidbit
   end
   
   def knowledge
-    @knowledge
+    knowledge
   end
 end
